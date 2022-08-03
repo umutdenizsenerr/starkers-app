@@ -7,12 +7,18 @@ body {
   background: transparent linear-gradient(180deg, #101338 0%, #000000 100%) 0%
     0% no-repeat padding-box;
   opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
   height: 250vh;
+  letter-spacing: 0.1vh;
 }
 
 .first-container {
   height: 100vh;
-  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +27,6 @@ body {
 .main2-container {
   background-image: url(./background/bg_bg_02.svg);
   height: 100%;
-  width: 100%;
 
   background-position: center;
   z-index: 0;
@@ -32,7 +37,6 @@ body {
 .main3-container {
   background-image: url(./background/bg_bg_03.svg);
   height: 100%;
-  width: 100%;
   background-position: center;
   z-index: 1;
   background-repeat: no-repeat;
@@ -42,7 +46,6 @@ body {
   background-image: url(./background/bg_bg_04.svg);
   height: 100%;
   background-position: center;
-  width: 100%;
   z-index: 2;
   background-repeat: no-repeat;
   background-size: cover;
@@ -192,6 +195,8 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  color: white;
+  text-decoration: none;
 }
 .icon-text {
   margin: 0.5vh;
@@ -207,6 +212,7 @@ body {
   font-family: BebasNeue-Regular;
   font-size: 4vh;
   text-align: center;
+  letter-spacing: 0.5vh;
 }
 .tba {
   font-family: Bourgeois-Rounded-Light;
@@ -218,6 +224,8 @@ body {
   font-size: 3vh;
   margin-top: 1vh;
   text-align: center;
+  letter-spacing: 0.5vh;
+  margin-top: 5vh;
 }
 .rules-content {
   font-family: Bourgeois-Rounded-Light;
@@ -226,10 +234,11 @@ body {
 }
 
 .nft-creator {
-  margin-top: 3vh;
+  margin-top: 10vh;
   font-family: BebasNeue-Regular;
   font-size: 4vh;
   text-align: center;
+  letter-spacing: 0.5vh;
 }
 .nft-creator-content {
   font-family: Bourgeois-Rounded-Light;
@@ -238,10 +247,11 @@ body {
   color: white;
 }
 .starker-journey {
-  margin-top: 5vh;
+  margin-top: 8vh;
   font-family: BebasNeue-Regular;
   font-size: 4vh;
   text-align: center;
+  letter-spacing: 0.5vh;
 }
 
 .starker-journey-content {
@@ -251,10 +261,11 @@ body {
 }
 
 .starkonomy {
-  margin-top: 5vh;
+  margin-top: 8vh;
   font-family: BebasNeue-Regular;
   font-size: 4vh;
   text-align: center;
+  letter-spacing: 0.5vh;
 }
 
 .starkonomy-content {
@@ -264,7 +275,7 @@ body {
 }
 
 .community {
-  margin-top: 5vh;
+  margin-top: 8vh;
   font-family: BebasNeue-Regular;
   font-size: 4vh;
   text-align: center;
@@ -294,19 +305,21 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
 
 .main-star-component {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 100%;
   gap: 2vh;
   font-size: 1.2vh;
   font-family: Bourgeois-Rounded-Light;
   text-align: center;
-  margin-top: 2vh;
+  margin-top: 8vh;
 }
 .star-component {
   background-image: url(./stars/Rectangle\ 33.svg);

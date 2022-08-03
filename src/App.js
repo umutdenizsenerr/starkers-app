@@ -42,17 +42,20 @@ function App() {
             for early adaptors of STARK ecosystem.
           </div>
           <div className="footer-icon">
-            <div className="icon-container">
+            <a className="icon-container" href="#">
               <BsDiscord />{" "}
               <div className="icon-text">Join Discord for Alpha Whitelist</div>
-            </div>
-            <div className="icon-container">
+            </a>
+            <a
+              className="icon-container"
+              href="http://twitter.com/earlystarkers"
+            >
               <FaTwitterSquare />{" "}
               <div className="icon-text">For Alpha News</div>
-            </div>
-            <div className="icon-container">
+            </a>
+            <a className="icon-container" href="mailto:earlystarkers@proton.me">
               <GrMail /> <div className="icon-text">For Collaboration</div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -64,7 +67,7 @@ function App() {
         <div className="rules-content">
           Everyone can only claim 1 star. <br />
           Naming cannot be reverted. <br />
-          First Come First Deserve. <br />
+          First Come First Serve. <br />
           Every STAR 0.015 ETH
         </div>
         <div className="main-star-component">
@@ -127,13 +130,13 @@ function App() {
         </div>
         <div className="community">Communıty</div>
         <div className="community-content">
-          <div className="footer-icon-container">
+          <a
+            className="footer-icon-container"
+            href="http://twitter.com/earlystarkers"
+          >
             <FaTwitterSquare /> <div className="icon-text">Twitter</div>
-          </div>
-          <div className="footer-icon-container">
-            <BsDiscord />
-            <div className="icon-text">Discord</div>
-          </div>
+          </a>
+          TBA
         </div>
       </div>
     </div>
