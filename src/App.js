@@ -136,7 +136,10 @@ function App() {
           >
             <FaTwitterSquare /> <div className="icon-text">Twitter</div>
           </a>
-          TBA
+          <div className="footer-icon-container">
+            <BsDiscord />
+            <div className="icon-text">TBA</div>
+          </div>
         </div>
       </div>
     </div>

@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  height: 250vh;
+  height: 300vh;
   letter-spacing: 0.1vh;
 }
 
@@ -82,9 +82,8 @@ body {
   align-items: flex-end;
   justify-content: flex-end;
   width: 100%;
-  margin-right: 15%;
+  margin-right: 5%;
   margin-top: 2%;
-  font-size: 2vh;
 }
 
 .button-container {
@@ -187,7 +186,7 @@ body {
   flex-direction: row;
   opacity: 1;
   height: 5vh;
-  margin-top: 1%;
+  margin-top: 2vh;
 }
 .icon-container {
   margin: 1vh;
